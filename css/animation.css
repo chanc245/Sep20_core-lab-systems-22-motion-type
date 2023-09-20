@@ -16,11 +16,6 @@ body {
 }
 
 
-
-
-
-
-/*
 .content {
   height: 100%;
   min-height: 100vh;
@@ -30,22 +25,43 @@ body {
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  25% { transform: rotate(90deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(90deg);
+    background-color: rgb(151, 183, 211);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes spin2 {
-  0% { transform: rotate(0deg); }
-  25% { transform: rotate(190deg); }
-  45% { transform: rotate(90deg); }
-  100% { transform: rotate(320deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(190deg);
+  }
+
+  45% {
+    transform: rotate(90deg);
+    background-color: rgb(169, 141, 194);
+  }
+
+  100% {
+    transform: rotate(320deg);
+  }
 }
 
 .shape {
   margin: 85px;
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   background-color: hsl(210, 80%, 25%);
 }
 
@@ -69,4 +85,3 @@ body {
   animation-iteration-count: infinite;
   animation-direction: normal;
 }
-*/
